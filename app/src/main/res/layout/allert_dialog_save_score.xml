@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#f2bbbb"
+        android:background="@drawable/button4"
         android:textColor="#3705ff"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -33,7 +33,7 @@
             android:ems="10"
             android:id="@+id/edtName"
             android:layout_weight="0.12"
-            android:hint="Type name..." />
+            android:hint=" Name..." />
     </LinearLayout>
 
     <LinearLayout
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Phòng học:"
+            android:text="Lớp  :                   "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="5.26"
@@ -55,7 +55,7 @@
             android:ems="10"
             android:id="@+id/edtRoom"
             android:layout_weight="1"
-            android:hint="Type room..." />
+            android:hint=" Class..." />
     </LinearLayout>
 
     <TextView

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/button">
 
     <GridView
         android:layout_width="match_parent"
@@ -12,21 +13,23 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:layout_margin="40dp">
         <Button
             android:text="Đóng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnCancle"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/buttonvienxanh"/>
 
         <Button
             android:text="Kết thúc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnFinish"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/buttonvienxanh"/>
     </LinearLayout>
 
 </LinearLayout>

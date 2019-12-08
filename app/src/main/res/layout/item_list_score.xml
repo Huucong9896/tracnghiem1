@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/button3">
 
     <TextView
-        android:text="Tuấn Ninh"
+        android:text="Công"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvNameStudent"
-        android:textColor="#5af22c"
+        android:textColor="#7B8379"
         android:textStyle="bold"
         android:padding="5dp"
         android:textSize="16dp"
@@ -19,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvScore"
-        android:textColor="#f905e4"
+        android:textColor="#EC1A0B"
         android:textStyle="bold"
         android:padding="5dp"
         android:gravity="right"

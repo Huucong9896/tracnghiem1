@@ -9,11 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="true"
-        android:textColor="#cce21212"
+        android:textColor="#504B4B"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="10dp"
         android:gravity="center"
-        android:text="Đây là ứng dụng ôn thi trắc nghiệm " />
+        android:text="Luyện tập cho ngày mai " />
 
 </FrameLayout>

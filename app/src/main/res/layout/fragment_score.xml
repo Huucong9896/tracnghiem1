@@ -13,8 +13,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="23sp"
-        android:textColor="#e41818"
-        android:background="#4ea9f9"
+        android:textColor="#4D3F3F"
         android:text="Danh sách điểm" />
 
     <LinearLayout
